@@ -32,7 +32,7 @@ resource "github_repository_file" "catalog" {
   overwrite_on_create = false
 
   content = jsonencode({
-    button       = { variant = "primary" }
+    button       = { variant = "secondary" }
     action_color = { value = "#0055ff", deprecated = false }
   })
 }
